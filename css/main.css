@@ -1,21 +1,68 @@
 body {
     margin: 0;
     box-sizing: border-box;
-    width: 100vw;
-    border: 1px solid red;
+    border: none;
 } 
 
+
+header {
+   padding: 1em 0;
+   background-color: rgb(121, 105, 105); 
+}
+
+.mapwrapper {
+    padding: 2em;    
+    height: 50vh;
+}
+
 .map {
-    width: 50%;
-    height: 50%;
-    text-align: center;
-    border: 1px solid green;
-    
+
+    text-align: center;    
     display: grid;
+    height: 100%;
     
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(9, fr);
+    grid-template-rows: repeat(9, 1fr);
+
+    grid-column-gap: 0.2%;
+    grid-row-gap: 0.2%;
  
+}
+
+.map button {
+    border: none;
 
 }
 
+
+/* Voting Class:
+
+- Automatic enrollment in vote by mail  (Green)
+- Optional enrollment in vote by mail   (Blue)
+- no vote by mail offered               (white)
+
+*/
+
+.automail {
+    background-color: rgb(91, 168, 123);
+}
+.automail:hover {
+    background-color: rgb(60, 110, 81);
+}
+
+.optinmail {
+    background-color: rgb(194, 226, 208);
+}
+
+.optinmail:hover {
+    background-color: rgb(136, 158, 145);
+}
+
+.nomail {
+    background-color: rgb(192, 111, 108);
+
+}
+
+.nomail:hover {
+    background-color:  rgb(126, 73, 71);
+}
