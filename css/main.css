@@ -1,15 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
 body {
     margin: 0;
     box-sizing: border-box;
     border: none;
+    font-family: 'Montserrat', sans-serif;
 } 
 
-
+/* Header Formatting */
 header {
    padding: 1em 0;
-   background-color: rgb(121, 105, 105); 
+   background-color: rgb(161, 165, 168); 
 }
 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+/* Map Formatting */
 .mapwrapper {
     padding: 2em;    
     height: 50vh;
@@ -31,17 +63,7 @@ header {
 
 .map button {
     border: none;
-
 }
-
-
-/* Voting Class:
-
-- Automatic enrollment in vote by mail  (Green)
-- Optional enrollment in vote by mail   (Blue)
-- no vote by mail offered               (white)
-
-*/
 
 .automail {
     background-color: rgb(91, 168, 123);
@@ -65,4 +87,8 @@ header {
 
 .nomail:hover {
     background-color:  rgb(126, 73, 71);
+}
+
+.map button:hover {
+    background-color: rgb(145, 143, 143);
 }
