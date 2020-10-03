@@ -1,0 +1,244 @@
+#ME {
+    grid-column: 11;
+    grid-row: 1;
+}
+
+#VT {
+    grid-column: 9;
+    grid-row: 2;
+}
+
+#NH {
+    grid-column: 10;
+    grid-row: 2;
+}
+
+#MA {
+    grid-column: 11;
+    grid-row: 2;
+}
+
+#NY {
+    grid-column: 9;
+    grid-row: 3;
+}
+
+#CT {
+    grid-column: 10;
+    grid-row: 3;
+}
+
+#RI {
+    grid-column: 11;
+    grid-row: 3;
+}
+
+#WA {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#ID{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#MT {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#ND {
+    grid-column: 5;
+    grid-row: 4;
+}
+
+
+#MN {
+    grid-column: 6;
+    grid-row: 4;
+}
+
+#MI {
+    grid-column: 8;
+    grid-row: 4;
+}
+
+#PA {
+    grid-column: 9;
+    grid-row: 4;
+}
+
+#MD {
+    grid-column: 10;
+    grid-row: 4;
+}
+
+#DE {
+    grid-column: 11;
+    grid-row: 4;
+}
+
+#OR {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#NV {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+#WY {
+    grid-column: 4;
+    grid-row: 5;
+}
+
+#SD {
+    grid-column: 5;
+    grid-row: 5;
+}
+
+#IA {
+    grid-column: 6;
+    grid-row: 5;
+}
+
+#WI {
+    grid-column: 7;
+    grid-row: 5;
+}
+
+#OH {
+    grid-column: 8;
+    grid-row: 5;
+}
+#WV {
+    grid-column: 9;
+    grid-row: 5;
+}
+
+#VA {
+    grid-column: 10;
+    grid-row: 5;
+}
+
+#CA {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+#UT {
+    grid-column: 3;
+    grid-row: 6;
+}
+
+#CO {
+    grid-column: 4;
+    grid-row: 6;
+}
+
+#NE {
+    grid-column: 5;
+    grid-row: 6;
+}
+
+#MO {
+    grid-column: 6;
+    grid-row: 6;
+}
+
+#IL {
+    grid-column: 7;
+    grid-row: 6;
+}
+   
+#IN {
+    grid-column: 8;
+    grid-row: 6;
+}
+
+#NC {
+    grid-column: 9;
+    grid-row: 6;
+}
+
+#AZ {
+    grid-column: 3;
+    grid-row: 7;
+}
+
+#NM {
+    grid-column: 4;
+    grid-row: 7;
+}
+
+#KS {
+    grid-column: 5;
+    grid-row: 7;
+}
+
+#AR {
+    grid-column: 5;
+    grid-row: 7;
+}
+
+#KY {
+    grid-column: 6;
+    grid-row: 7;
+}
+
+#TN {
+    grid-column: 7;
+    grid-row: 7;
+}
+
+#SC {
+    grid-column: 8;
+    grid-row: 7;
+}
+
+#AK {
+    grid-column: 1;
+    grid-row: 8;
+}
+
+#OK {
+    grid-column: 4;
+    grid-row: 8;
+}
+
+#LA {
+    grid-column: 5;
+    grid-row: 8;
+}
+
+#MS {
+    grid-column: 6;
+    grid-row: 8;
+}
+
+#AL {
+    grid-column: 7;
+    grid-row: 8;
+}
+
+#GA {
+    grid-column: 8;
+    grid-row: 8;
+}
+
+#HI {
+    grid-column: 1;
+    grid-row: 9;
+}
+
+#TX {
+    grid-column: 4;
+    grid-row: 9;
+}
+
+#FL {
+    grid-column: 9;
+    grid-row: 9;
+}

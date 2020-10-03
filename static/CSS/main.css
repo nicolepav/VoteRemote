@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+/* Header Formatting */
+header {
+   padding: 1em 0;
+   background-color: rgb(161, 165, 168); 
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+/* Map Formatting */
+.mapwrapper {
+    padding: 2em;    
+    height: 50vh;
+}
+
+.map {
+
+    text-align: center;    
+    display: grid;
+    height: 100%;
+    
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+
+    grid-column-gap: 0.2%;
+    grid-row-gap: 0.2%;
+ 
+}
+
+.map button {
+    border: none;
+}
+
+.automail {
+    background-color: rgb(91, 168, 123);
+}
+.automail:hover {
+    background-color: rgb(60, 110, 81);
+}
+
+.optinmail {
+    background-color: rgb(194, 226, 208);
+}
+
+.optinmail:hover {
+    background-color: rgb(136, 158, 145);
+}
+
+.nomail {
+    background-color: rgb(192, 111, 108);
+
+}
+
+.nomail:hover {
+    background-color:  rgb(126, 73, 71);
+}
+
+.map button:hover {
+    background-color: rgb(145, 143, 143);
+}
