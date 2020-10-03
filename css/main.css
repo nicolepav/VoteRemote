@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    border: 1px solid red;
+} 
+
+.map {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border: 1px solid green;
+    
+    display: grid;
+    
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(9, fr);
+ 
+
+}
+
