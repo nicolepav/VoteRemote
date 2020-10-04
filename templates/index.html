@@ -10,19 +10,31 @@
     <link rel="stylesheet" href="{% static 'css/mapgrid.css' %}">
 
 </head>
+
 <body>
     
     <header>
-        <h1>VoteRemote</h1>
-
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Get The Facts</a></li>
-            </ul>
-        </nav>
-    </header>
         
+        <!-- <div class="logocontainer">
+            <img src="images/voteremotewhitetrans.png" alt="">
+        </div> -->
+        <div class="nav">
+            <ul>
+                <li><img src="{% static 'images/voteremotewhitetrans.png' %}" alt="voteremote logo"></li>
+                <div class="nav-buttons">
+                    <li><a href="pollworker">Become a Poll Worker</a></li>
+                    <li><a href="getthefacts">Get The Facts</a></li>
+                </div>
+                
+            </ul>
+
+        </div>
+        
+    </header>
+
+    <div>
+        <h2>Choose Your State:</h2>
+    </div>
 
     <div class="mapwrapper">
         <div class="map">
