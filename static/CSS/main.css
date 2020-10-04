@@ -98,10 +98,6 @@ h2 {
     border: none;
 }
 
-.form {
-    border: none;
-}
-
 .automail {
     background-color: rgb(91, 168, 123);
 }
@@ -128,4 +124,51 @@ h2 {
 
 .map button:hover {
     background-color: rgb(145, 143, 143);
+}
+
+/* Article */
+
+.article {
+    margin: 5em;
+}
+
+.article h1 {
+    font-size: 3rem;
+    color: rgb(46, 53, 49);
+}
+
+.article img{
+    width: 100%;
+}
+
+.article .iframe-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.article p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+/* State Page Styling */
+
+.statepage {
+    text-align: center;
+}
+
+.statepage h1 {
+    padding: 2em;
+    padding-bottom: 1em;;
+}
+
+.statepage hr {
+    width: 80%;
+}
+
+
+.statepage .statecontent {
+    padding: 0 10%;
+    line-height: 1;
+    text-align: left;
 }
