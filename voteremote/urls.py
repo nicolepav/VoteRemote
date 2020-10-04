@@ -23,6 +23,7 @@ from home.views import create_home
 urlpatterns = [
     path('', create_home, name="index"),
     path('admin/', admin.site.urls),
+    #path('votinginfo/', voting_info_redirect)
 ]
 
 
