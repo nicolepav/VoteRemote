@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+/* Header Formatting */
+header {
+   padding: 0;
+   background-color: #83D091; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+
+    overflow: hidden;
+    background-color: #333;
+    padding-right: 1%;
+    padding-left: 1%;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+li {
+    text-transform: uppercase;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 10em;
+    
+}
+
+li img {
+    height: 6em;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.nav-buttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 5%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(136, 158, 145);
+    padding: 1%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* Map Formatting */
+.mapwrapper {
+    padding: 2em;
+    padding-top: 0;
+    padding-bottom: 4em;
+    height: 65vh;
+}
+
+.map {
+
+    text-align: center;   
+    height: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(11, 8vmin);
+    grid-template-rows: repeat(9, 8vmin);
+    justify-content: center;
+    align-content: center;
+
+    grid-column-gap: 0.2%;
+    grid-row-gap: 0.2%;
+ 
+}
+
+.map button {
+    border: none;
+}
+
+.automail {
+    background-color: rgb(91, 168, 123);
+}
+.automail:hover {
+    background-color: rgb(60, 110, 81);
+}
+
+.optinmail {
+    background-color: rgb(194, 226, 208);
+}
+
+.optinmail:hover {
+    background-color: rgb(136, 158, 145);
+}
+
+.nomail {
+    background-color: rgb(192, 111, 108);
+
+}
+
+.nomail:hover {
+    background-color:  rgb(126, 73, 71);
+}
+
+.map button:hover {
+    background-color: rgb(145, 143, 143);
+}
+
+/* Article */
+
+.article {
+    margin: 5em;
+}
+
+.article h1 {
+    font-size: 3rem;
+    color: rgb(46, 53, 49);
+}
+
+.article img{
+    width: 100%;
+}
+
+.article .iframe-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.article p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+/* State Page Styling */
+
+.statepage {
+    text-align: center;
+}
+
+.statepage h1 {
+    padding: 2em;
+    padding-bottom: 1em;;
+}
+
+.statepage hr {
+    width: 80%;
+}
+
+
+.statepage .statecontent {
+    padding: 0 10%;
+    line-height: 1;
+    text-align: left;
+}

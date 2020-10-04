@@ -15,7 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
+
+from home.views import create_home
+from staticpages.views import pollworker, get_the_facts, voting_view
 
 urlpatterns = [
+    path('', create_home, name="index"),
     path('admin/', admin.site.urls),
+    path('pollworker/', pollworker),
+    path("getthefacts/", get_the_facts),
+    path('votinginfo/<str:state_name>/', voting_view),
 ]
+
+
