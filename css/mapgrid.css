@@ -69,14 +69,9 @@
     grid-row: 4;
 }
 
-#MD {
+#NJ {
     grid-column: 10;
-    grid-row: 4;
-}
-
-#DE {
-    grid-column: 11;
-    grid-row: 4;
+    grid-row: 4; 
 }
 
 #OR {
@@ -118,8 +113,13 @@
     grid-row: 5;
 }
 
-#VA {
+#MD {
     grid-column: 10;
+    grid-row: 5;
+}
+
+#DE {
+    grid-column: 11;
     grid-row: 5;
 }
 
@@ -160,6 +160,11 @@
 
 #NC {
     grid-column: 9;
+    grid-row: 6;
+}
+
+#VA {
+    grid-column: 10;
     grid-row: 6;
 }
 
