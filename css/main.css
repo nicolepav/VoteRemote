@@ -125,3 +125,28 @@ h2 {
 .map button:hover {
     background-color: rgb(145, 143, 143);
 }
+
+/* Article */
+
+.article {
+    margin: 5em;
+}
+
+.article h1 {
+    font-size: 3rem;
+    color: rgb(46, 53, 49);
+}
+
+.article img{
+    width: 100%;
+}
+
+.article .iframe-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.article p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
