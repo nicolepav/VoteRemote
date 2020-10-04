@@ -22,8 +22,9 @@
             <ul>
                 <li><img src="{% static 'images/voteremotewhitetrans.png' %}" alt="voteremote logo"></li>
                 <div class="nav-buttons">
-                    <li><a href="pollworker">Become a Poll Worker</a></li>
-                    <li><a href="getthefacts">Get The Facts</a></li>
+                    <li><a href="/">Voting Map</a></li>
+                    <li><a href="/pollworker/">Become a Poll Worker</a></li>
+                    <li><a href="/getthefacts/">Get The Facts</a></li>
                 </div>
                 
             </ul>
@@ -40,7 +41,9 @@
         <div class="map">
             {% for state_key in all_keys%}
             <form action="/votinginfo/{{state_key.name}}/" method="post" id = {{state_key.abbreviation}}>{% csrf_token %}
-                <button type="submit" id={{state_key.abbreviation}}>{{state_key.abbreviation}}</button>
+                <div class = "statebutton">
+                    <button type="submit" id={{state_key.abbreviation}}>{{state_key.abbreviation}}</button>
+                </div>
             </form>
             {% endfor %}
                 
