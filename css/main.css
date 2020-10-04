@@ -150,3 +150,25 @@ h2 {
     font-size: 1.3rem;
     line-height: 2rem;
 }
+
+/* State Page Styling */
+
+.statepage {
+    text-align: center;
+}
+
+.statepage h1 {
+    padding: 2em;
+    padding-bottom: 1em;;
+}
+
+.statepage hr {
+    width: 80%;
+}
+
+
+.statepage .statecontent {
+    padding: 0 10%;
+    line-height: 1;
+    text-align: left;
+}
