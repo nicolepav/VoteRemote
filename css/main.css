@@ -10,41 +10,65 @@ body {
 
 /* Header Formatting */
 header {
-   padding: 1em 0;
-   background-color: rgb(161, 165, 168); 
+   padding: 0;
+   background-color: #83D091; 
 }
-
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+
     overflow: hidden;
     background-color: #333;
+    padding-right: 1%;
+    padding-left: 1%;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
 }
 
 li {
-    float: left;
+    text-transform: uppercase;
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 16px;
+    padding: 10% 10%;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    width: 10em;
+    
+}
+
+li img {
+    height: 6em;
 }
 
 li a:hover {
     background-color: #111;
 }
 
+.nav-buttons {
+    display:flex;
+    margin-right: 5%;
+}
 
+h2 {
+    text-align: center;
+    color: rgb(136, 158, 145);
+    padding: 1%;
+}
 
 /* Map Formatting */
 .mapwrapper {
     padding: 2em;    
-    height: 50vh;
+    height: 65vh;
 }
 
 .map {
